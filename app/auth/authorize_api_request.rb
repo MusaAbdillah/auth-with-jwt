@@ -12,8 +12,8 @@ class AuthorizeApiRequest
 	end
 
 	private 
+		
 		attr_reader :headers
-
 
 		def user 
 			# check if the user is in the database 
